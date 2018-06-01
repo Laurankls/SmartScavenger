@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
         setContentView(scannerView);
         int currentApiVersion = Build.VERSION.SDK_INT;
 
-        if(currentApiVersion >=  Build.VERSION_CODES.M) //Testkommentar
+        if(currentApiVersion >=  Build.VERSION_CODES.M)
         {
             if(checkPermission())
             {
